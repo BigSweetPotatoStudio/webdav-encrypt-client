@@ -1,5 +1,5 @@
 {
-  "name": "webdav",
+  "name": "webdav-encrypt",
   "version": "5.7.1",
   "description": "WebDAV client for NodeJS",
   "exports": {

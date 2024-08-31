@@ -1,6 +1,6 @@
 import nock from "nock";
 import { expect } from "chai";
-import { AuthType } from "../../source/index.js";
+import { AuthType } from "../../source/encrypt";
 import {
     SERVER_PASSWORD,
     SERVER_PORT,
@@ -8,7 +8,7 @@ import {
     clean,
     createWebDAVClient,
     createWebDAVServer
-} from "../helpers.node.js";
+} from "../helpers.node.s.js";
 
 const DUMMYSERVER = "https://dummy.webdav.server";
 
